@@ -1,0 +1,19 @@
+.taskList {
+  width: 40%;
+  min-width: 500px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.task{
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+.task hr{
+  width: 30%;
+}

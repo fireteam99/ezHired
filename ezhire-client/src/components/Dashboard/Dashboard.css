@@ -1,0 +1,91 @@
+.dashboard{
+    margin: auto;
+}
+
+.column{
+  display: inline-block;
+  text-align: center;
+  background: #E6E6E6;
+  width: 30%;
+  min-width: 400px;
+  margin: 50px 15px;
+  min-height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 8px 6px -6px black;
+  vertical-align: top;
+  padding-bottom: 20px;
+}
+
+.columnHeader {
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 300px;
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #db6a53;
+  border-bottom-width: 5px;
+  text-transform: uppercase;
+  background-color: #FFF;
+}
+
+.card {
+  margin-left: 5%;
+  width: 90%;
+
+  transition: all 0.45s ease-in;
+
+}
+
+.topCard {
+  text-align: left;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FFF;
+  background: #DB6A53;
+  margin-top: 20px;
+  line-height: 18px;
+  font-size: 20px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFF;
+  border-bottom-width: 5px;
+}
+
+.bottomCard{
+  color: #000;
+  background: #FFF;
+  height: 0px;
+  opacity: 0;
+  border-bottom-style: solid;
+  border-bottom-color: #db6a53;
+  border-bottom-width: 5px;
+}
+
+.topCard:hover + .bottomCard{
+  height: 100px;
+  opacity: 1;
+}
+.bottomCard:hover{
+  height: 100px;
+  opacity: 1;
+}
+
+.topLeft{
+  margin-left: 10px;
+}
+
+.cardCompany{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.edit{
+  text-align: left;
+  margin-left: 5px;
+  color: #DB6A53;
+  font-size: 30px;
+}

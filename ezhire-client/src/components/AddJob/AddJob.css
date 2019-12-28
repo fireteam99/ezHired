@@ -1,0 +1,32 @@
+.addJob{
+  height: 100vh;
+  width: 100%;
+}
+
+.addForm{
+  background: #E6E6E6;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+}
+
+.addSubmit{
+  transition: all 0.25s ease-in;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  margin-top: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  background: #db6a53;
+  font-size: 20px;
+}
+
+.addSubmit:hover{
+  background: #d63429;
+}
+
+.label{
+  margin-bottom: 5px;
+}

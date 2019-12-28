@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #FFF;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.page{
+  text-align: center;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.pageHeader{
+  font-weight: 600;
+  font-size: 35px;
+  margin: auto;
+  padding-bottom: 1px;
+  margin-top: 20px;
+  color: #db6a53;
+  border-bottom-style: solid;
+  border-color: #db6a53;
+  border-width: 2px;
+  width: 200px;
+}
+
+.header{
+
+  background: #db6a53;
+  margin: 0px;
+  text-align: left;
+}
+
+.logo {
+  display: inline-block;
+  text-align: center;
+  font-weight: 200;
+  margin: 20px 90px 20px;
+  width: 300px;
+  padding: 20px;
+  color: #FFF;
+  background-color: #DD7E6B;
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 5px;
+  font-size: 50px;
+  border-radius: 5px;
+}
+.btn{
+  transition: all 0.25s ease-in;
+  display: inline-block;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #DD7E6B;;
+  border-width: 5px;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  color: #DD7E6B;
+  width: 50px;
+  width: 50px;
+  padding: 10px;
+  background: #FFF;
+}
+.btn:hover{
+  background: #DD7E6B;
+  color: #FFF;
+}
+.activeBtn{
+  background: #DD7E6B;
+  color: #FFF;
+}
+
+.searchForm{
+  margin-left: 60px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.searchBar{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #FFF;
+  padding: 15px;
+  padding-right: 60px;
+  border: none;
+  border-radius: 50px;
+  height: 30px;
+  background-color: #DD7E6B;
+  width: 300px;
+}
+
+.searchEnter{
+  position: relative;
+  left: -50px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: #FFF;
+}
